@@ -1,6 +1,6 @@
 name: flutter_ymodem
 description: ICBTECH flutter YMODEM plugin. Standard YMODEM protocol (verify code Crc16Xmodem). Super All platforms.
-version: 0.0.8
+version: 0.0.9
 homepage: https://github.com/doubletcjs/flutter_ymodem
 
 environment:

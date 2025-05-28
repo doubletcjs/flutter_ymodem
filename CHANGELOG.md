@@ -1,3 +1,7 @@
+## 0.0.9
+
+- bug fix for platform Linux/Windows/MacOS
+
 ## 0.0.8
 
 - New version in github

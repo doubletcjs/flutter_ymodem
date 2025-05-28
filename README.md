@@ -1,6 +1,6 @@
 # flutter_ymodem
 
-ICBTECH flutter YMODEM plugin. Standard YMODEM protocol (verify code Crc16Xmodem). Super All platforms.
+Flutter YMODEM plugin. Standard YMODEM protocol (verify code Crc16Xmodem). Super All platforms.
 
 ## Getting Started
 

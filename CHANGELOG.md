@@ -1,3 +1,7 @@
+## 0.1.0
+
+- bug fix
+
 ## 0.0.9
 
 - bug fix for platform Linux/Windows/MacOS

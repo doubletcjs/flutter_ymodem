@@ -5,9 +5,9 @@
 Pod::Spec.new do |s|
   s.name             = 'flutter_ymodem'
   s.version          = '0.0.1'
-  s.summary          = 'ICBTECH flutter YMODEM plugin. Standard YMODEM protocol (verify code Crc16Xmodem). Super All platforms.'
+  s.summary          = 'Flutter YMODEM plugin. Standard YMODEM protocol (verify code Crc16Xmodem). Super All platforms.'
   s.description      = <<-DESC
-ICBTECH flutter YMODEM plugin. Standard YMODEM protocol (verify code Crc16Xmodem). Super All platforms.
+Flutter YMODEM plugin. Standard YMODEM protocol (verify code Crc16Xmodem). Super All platforms.
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }

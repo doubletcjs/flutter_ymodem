@@ -8,7 +8,7 @@
 
 #include "flutter_ymodem_plugin_private.h"
 
-#define ICB_YMODEM_UTIL_PLUGIN(obj) \
+#define Flutter_YMODEM_PLUGIN(obj) \
   (G_TYPE_CHECK_INSTANCE_CAST((obj), flutter_ymodem_plugin_get_type(), \
                               FlutterYmodemPlugin))
 
@@ -55,12 +55,12 @@ static void flutter_ymodem_plugin_init(FlutterYmodemPlugin* self) {}
 
 static void method_call_cb(FlMethodChannel* channel, FlMethodCall* method_call,
                            gpointer user_data) {
-  FlutterYmodemPlugin* plugin = ICB_YMODEM_UTIL_PLUGIN(user_data);
+  FlutterYmodemPlugin* plugin = FLUTTER_YMODEMPLUGIN(user_data);
   flutter_ymodem_plugin_handle_method_call(plugin, method_call);
 }
 
 void flutter_ymodem_plugin_register_with_registrar(FlPluginRegistrar* registrar) {
-  FlutterYmodemPlugin* plugin = ICB_YMODEM_UTIL_PLUGIN(
+  FlutterYmodemPlugin* plugin = FLUTTER_YMODEMPLUGIN(
       g_object_new(flutter_ymodem_plugin_get_type(), nullptr));
 
   g_autoptr(FlStandardMethodCodec) codec = fl_standard_method_codec_new();

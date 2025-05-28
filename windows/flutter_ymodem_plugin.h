@@ -1,5 +1,5 @@
-#ifndef FLUTTER_PLUGIN_ICB_YMODEM_UTIL_PLUGIN_H_
-#define FLUTTER_PLUGIN_ICB_YMODEM_UTIL_PLUGIN_H_
+#ifndef FLUTTER_PLUGIN_FLUTTER_YMODEM_PLUGIN_H_
+#define FLUTTER_PLUGIN_FLUTTER_YMODEM_PLUGIN_H_
 
 #include <flutter/method_channel.h>
 #include <flutter/plugin_registrar_windows.h>
@@ -28,4 +28,4 @@ class FlutterYmodemPlugin : public flutter::Plugin {
 
 }  // namespace flutter_ymodem
 
-#endif  // FLUTTER_PLUGIN_ICB_YMODEM_UTIL_PLUGIN_H_
+#endif  // FLUTTER_PLUGIN_FLUTTER_YMODEM_PLUGIN_H_

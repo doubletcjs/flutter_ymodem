@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   void initState() {
     super.initState();
 
-    FlutterYmodemUtil().run(
+    FlutterYmodem().run(
       fileData: Uint8List.fromList([]),
       cmd: Uint8List.fromList([]),
       feedback: (successful, msg) {},

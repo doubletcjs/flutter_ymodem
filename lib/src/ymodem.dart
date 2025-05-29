@@ -6,7 +6,7 @@ import 'package:crclib/catalog.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class FlutterYmodemUtil {
+class FlutterYmodem {
   Duration _timeOutDuration = const Duration(seconds: 10);
   Duration _upgradeTimeOutDuration = const Duration(seconds: 10);
   Timer? _timer;

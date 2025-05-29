@@ -1,3 +1,11 @@
+## 0.1.2
+
+- Update LICENSE
+
+## 0.1.1
+
+- bug fix
+
 ## 0.1.0
 
 - bug fix
